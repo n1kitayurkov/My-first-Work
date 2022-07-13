@@ -16,7 +16,7 @@ public class Puppy{
    }
    public static void main(String []args){
       /* Создание объекта. */
-      Puppy myPuppy = new Puppy( "Багет" );
+      Puppy myPuppy = new Puppy( "Батон" );
 
       /* Вызов метод класса, чтобы установить возраст щенка. */ 
       myPuppy.setAge( 2 );
@@ -25,6 +25,6 @@ public class Puppy{
       myPuppy.getAge( );
 
       /* Получение переменной экземпляра класса. */
-      System.out.println("Значение переменной:" + myPuppy.puppyAge ); 
+      System.out.println("Значение переменной:" + myPuppy.puppyAge); 
    }
 }
